@@ -33,7 +33,7 @@ stages:
 
 - stage: PushDockerImage
   displayName: 'Push Docker Image'
-  dependsOn: BuildDockerImage
+  dependsOn: BuildDockerImagepersevrance01
   jobs:
   - job: push
     displayName: 'Push Docker Image to ACR'
